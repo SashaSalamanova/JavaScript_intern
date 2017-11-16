@@ -7,9 +7,7 @@ output: {
 filename: 'bundle.js',
 path: path.resolve(__dirname, 'dist')
 },
-/*plugins: [
-    new webpack.optimize.UglifyJsPlugin(),
-    ], */
+
 module: {
     rules: [{
     test: /\.js$/, // запустим загрузчик во всех файлах .js
