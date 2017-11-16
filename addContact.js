@@ -39,17 +39,17 @@ class AddContact extends React.Component{
             <div>
             <label>Имя</label>
                 <div>
-                <input value={this.state.name} onChange={this.handleNameChange}/>
+                <input value={this.state.name} class="textbox" onChange={this.handleNameChange}/>
                 </div>
                 </div>
                 <div>
                 <label>Телефон</label>
                  <div>
-                     <input value={this.state.phone} onChange={this.handlePhoneChange}/>
+                     <input value={this.state.phone} class="textbox" onChange={this.handlePhoneChange}/>
                      </div>
                     </div>
                 <div>
-                     <input type="reset" value="Добавить" onClick={this.handleClick}/>
+                     <input type="submit" class="button" value="Добавить" onSubmit={this.handleClick}/>
                 </div>
         </form>
       }

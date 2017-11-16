@@ -54,11 +54,11 @@ class DeleteContact extends React.Component {
             <div>
                 <label>Поиск по имени</label>
                 <div>
-            <input value={this.state.name} onChange={this.handleSearchChange}/><br />
+            <input value={this.state.name} class="textbox"  onChange={this.handleSearchChange}/><br />
             </div>
                 </div>
                 <div>
-            <input type="reset" value="Удалить" onClick={this.handleClick}/>
+            <input type="reset" class="button" value="Удалить" onClick={this.handleClick}/>
             </div>
             </form>
         )

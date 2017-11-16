@@ -9,7 +9,7 @@ const mapStateToProps = (state) => {
 }
 
 let ShowContacts= ({contacts}) => (
-    <div> 
+    <div id = 'contactList'> 
         <h2>Список контактов</h2>
         <ul> 
             {contacts.map(function(c){
