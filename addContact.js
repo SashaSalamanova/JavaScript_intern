@@ -34,7 +34,7 @@ class AddContact extends React.Component{
         //console.log(newContact);
  }
       render() {
-        return <form>
+        return <form >
             <h2>Добавить контакт</h2>
             <div>
             <label>Имя</label>
@@ -49,7 +49,7 @@ class AddContact extends React.Component{
                      </div>
                     </div>
                 <div>
-                     <input type="submit" class="button" value="Добавить" onSubmit={this.handleClick}/>
+                     <input type="reset" class="button" value="Добавить" onClick ={this.handleClick}/>
                 </div>
         </form>
       }
